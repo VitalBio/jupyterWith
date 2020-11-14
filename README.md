@@ -284,7 +284,7 @@ let
 
   jupyterEnvironment = jupyter.jupyterlabWith {
     extraJupyterPath = pkgs:
-      "${pkgs.python3Packages.jupytext}/lib/python3.7/site-packages";
+      "${pkgs.python3Packages.jupytext}/lib/python3.8/site-packages";
   };
 ```
 
