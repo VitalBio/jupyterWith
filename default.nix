@@ -35,7 +35,7 @@ let
         python3.jupyter_contrib_core
         python3.jupyter_nbextensions_configurator
         python3.tornado
-        python3.jupterhub
+        python3.jupyterhub
       ];
 
       # JupyterLab executable wrapped with suitable environment variables.
